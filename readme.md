@@ -25,10 +25,11 @@ Worm inherits all the features of GGH and expands with several new features (I n
 - Setup Configuration file
 by default jump look up config at ~/.jump/configs
 ```shell
-mkdir ~/.jump/configs
+mkdir -p ~/.jump/configs
 ```
 create workspace dir (each workspace are isolate)
 ```shell
+cd ~/.jump/configs
 mkdir adtech
 ```
 now each workspace we can create login file. each file manage connect to 1 remote server

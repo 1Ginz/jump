@@ -63,7 +63,7 @@ func Print() {
 	}
 
 	if len(list) == 0 {
-		fmt.Println("No configs found in ~/.worm")
+		fmt.Println("No configs found in ~/.jump/configs")
 		return
 	}
 
