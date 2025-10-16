@@ -17,7 +17,7 @@ func HomeDir() string {
 }
 
 func GetSshDir() string {
-	return filepath.Join(HomeDir(), ".worm/configs")
+	return filepath.Join(HomeDir(), ".jump/configs")
 }
 
 func GetFiles() []string {

@@ -174,7 +174,7 @@ func Print() {
 	}
 
 	if len(list) == 0 {
-		fmt.Println("No configs found in ~/.ssh/config.")
+		fmt.Println("No configs found in ~/.jump/.config")
 		return
 	}
 
